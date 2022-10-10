@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulario</title>
+  </head>
+  <body>
+    <form action="ejemplo.php" method="get">
+      <fieldset>
+        <legend>datos personal</legend>
+        <label>NOMBRE: <input type="text" name="nombre" /></label>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" required>
+      </fieldset>
+
+      <p>foto: <input type="file" name="foto" /></p>
+      <p>fecha: <input type="date" name="fecha" /></p>
+      <p>color: <input type="color" name="color" /></p>
+      <p>
+        sexo: <input type="radio" name="H" value="h" />HOMBRE
+        <input type="radio" name="M" value="m" />Mujer
+      </p>
+
+      <p>
+        Sexo: <input type="radio" name="hm" value="h" /> Hombre
+        <input type="radio" name="hm" value="m" /> Mujer
+      </p>
+
+      <p>
+        comentario:
+        <textarea
+          name="comentario"
+          id="comentario"
+          row="0"
+          cols="20"
+          placeholder="escribir algo"
+        ></textarea>
+      </p>
+      <fieldset>
+        <legend>comentarios</legend>
+        
+      </fieldset>
+
+      <p>
+        estado civil
+        <select name="estado" id="s">
+          <option value="nada" selected>...</option>
+          <option value="soltero">soltero</option>
+          <option value="casado">casado</option>
+        </select>
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar" />
+      </p>
+
+      <select name="menu">
+        <option selected>...</option>
+        <optgroup label="grupo1">
+          <option value="1">opcion1</option>
+          <option value="1">opcion1</option>
+        </optgroup>
+      </select>
+    </form>
+  </body>
+</html>

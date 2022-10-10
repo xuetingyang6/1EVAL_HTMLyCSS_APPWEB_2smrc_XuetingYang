@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    comida:
+    <input type="radio" name="comida">verdura
+    <input type="radio" name="comida">carne
+
+    
+    plato:
+    <input type="radio" name="plato" required>plato1
+    <input type="radio" name="plato">plato2
+    <p>
+    <input type="button" value="input type button no hace nada">
+    <button type="button">
+        <img src="images/índice.png" alt="una foto" width="50"  height="50" style="vertical-align: middle">
+        button type button puede meter texto e imagen, tampoco hace nada
+    </button>
+    </p>
+    <p>
+    <label for="nhijos">numero de hijos:
+        <select name="nhijos" id="nhijos">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="" selected>...</option>
+        </select>
+    </label>
+    </p>
+
+    <label for="">lugar de nacimiento:
+        <select name="lugar" id="lugar">
+            <option value="" selected>...</option>
+            <optgroup label="madrid">
+                <option value="madrid">madrid</option>
+                <option value="fuenlabrada">fuenlabrada</option>
+            </optgroup>
+            <optgroup label="alicante">
+                <option value="san juan">san juan</option>
+                <option value="elche">elche</option>
+
+            </optgroup>
+        </select>
+
+    </label>
+</body>
+</html>
