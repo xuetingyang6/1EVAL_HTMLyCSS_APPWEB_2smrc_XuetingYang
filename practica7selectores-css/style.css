@@ -1,0 +1,24 @@
+*{
+    color:red;
+
+}
+h1{
+    color:yellowgreen;
+    background-color:black;
+
+}
+body{
+    background-color:green;
+}
+p.parrafoprincipal{
+    color:white;
+
+}
+p.parrafopar{
+    color:blueviolet;
+
+}
+#parrafoh3{
+    color:aqua;
+
+}
