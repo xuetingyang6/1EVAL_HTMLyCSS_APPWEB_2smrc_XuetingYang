@@ -1,0 +1,40 @@
+html{
+    border:burlywood solid 10px;
+}
+
+body{
+    margin-left: 0px;
+    border-style: solid;
+    border-color:brown;
+    background-color: green;
+    border-radius: 20px;
+
+}
+h1{
+    border-style: dashed;
+    border-color:rgb(35, 196, 169);
+    border-width:10px;
+    background-color:blueviolet;
+    color:chartreuse;
+    border-radius: 10px;
+    
+}
+p{
+    border:red solid 1rem;
+    font-family:'Times New Roman', Times, serif;
+    border-color:green orange orchid;
+}
+li{
+    list-style: lower-roman;
+    list-style-position: outside;
+    background-color: aliceblue;
+    
+}
+blockquote{
+    border-style: groove;
+    border-color: brown orange orchid yellow;
+    padding:20px 30px 50px
+}
+ul{
+    list-style-image: url("practica9modelodecaja/img/Clear-Tick-icon.png");
+}
