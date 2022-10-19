@@ -1,0 +1,11 @@
+/*esto es un comentario de css*/
+hr{
+    width:450px;
+    height:20px;
+    background-color: orangered;
+    border-radius: 10px;
+    border-style:dashed;
+    border-color:springgreen;
+    
+    
+}
