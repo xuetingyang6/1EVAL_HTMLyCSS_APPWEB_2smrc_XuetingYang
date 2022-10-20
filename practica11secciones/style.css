@@ -1,0 +1,22 @@
+
+li{
+    list-style:none;
+    display:inline;
+}
+header{
+    height:20%;
+    background-color:orangered;
+}
+nav{
+
+    height:60%;
+    background-color: brown;
+}
+
+footer{
+    height:20%;
+    background-color: crimson;
+}
+aside{
+    
+}
