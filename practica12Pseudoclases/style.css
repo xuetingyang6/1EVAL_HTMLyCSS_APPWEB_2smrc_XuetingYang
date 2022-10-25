@@ -1,0 +1,48 @@
+
+/*solo se aplica al primer elemento detro del contenido */
+main :first-child {
+    color: green;
+}
+
+/* cambia el color del enlace*/
+a:link {
+    color:blueviolet;
+    background-color:  black;
+}
+
+/*cambia el color cuando el enlace está visitado */
+a:visited {
+    background-color: yellow;
+}
+
+/*cuando el raton pasa sobre él,cambia el color */
+a:hover {
+    background-color:  red;
+    color: white;
+}
+
+/*hace efectos cuando hace el click */
+a:active {
+    font-size: x-large;
+}
+
+/* : es pseudo clase    ::es pseudo elemento*/
+input:focus {
+    background-color: yellowgreen;
+}
+
+input::first-line {
+    text-transform: capitalize;
+}
+/* no se aplica los cambios en caso que está situado una image en el principio */
+p::first-letter {
+    color:red;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+p.cuidado::before {
+    content: "importanteª!!!";
+
+}
