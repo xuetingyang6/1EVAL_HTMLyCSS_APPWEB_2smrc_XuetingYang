@@ -46,3 +46,8 @@ p.cuidado::before {
     content: "importanteª!!!";
 
 }
+
+li{
+    list-style-type: none;
+    display:inline;
+}
