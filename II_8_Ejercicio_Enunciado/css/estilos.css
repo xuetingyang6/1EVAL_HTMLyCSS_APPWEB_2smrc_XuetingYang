@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    background-color: darkgray;
+}
+
+div.container {
+    width: 75%;
+    height: 600px;
+    background-color: green;
+    position: relative;
+    left: 15%;
+    top: 50px;
+
+}
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    position: sticky;
+    top: 5px;
+    z-index: 6;
+}
+nav div {
+    color: #fff;
+    display:inline-block;
+    width: 15%;
+    margin: 25px 20px;
+
+}
+
+figure img {
+    width: 300px;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 15px 20px 50px;
+    background-color: #fff;
+}
+
+figure#li1 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: rotate(-45deg);
+    z-index: 5;
+}
+
+figure#li2 {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: rotate(45deg);
+    z-index: 4;
+}
+
+figure#li3 {
+    position: absolute;
+    top: 37%;
+    left: 42%;
+    transform: rotate(-20deg);
+    z-index: 3;
+}
+
+figure#li4 {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    z-index: 2;
+    transform: rotate(10deg);
+}
+
+figure figcaption {
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+
+div.fixed-sidebar {
+    width: 8%;
+    border-style: solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 350px;
+    text-align: center;
+    position: fixed;
+    left: 10px;
+    top: 20%;
+
+}
+
+.fixed-sidebar img {
+    width: 100px;
+    margin: 5px 0 20px;
+
+}
+.fixed-sidebar ul li {
+    list-style: none;
+    margin: 5px;
+}
